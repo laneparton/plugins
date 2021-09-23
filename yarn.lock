@@ -6739,7 +6739,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chokidar@npm:^3.4.0, chokidar@npm:^3.4.2, chokidar@npm:^3.4.3, chokidar@npm:^3.5.1, chokidar@npm:^3.5.2":
+"chokidar@npm:^3.4.0, chokidar@npm:^3.4.2, chokidar@npm:^3.5.1, chokidar@npm:^3.5.2":
   version: 3.5.2
   resolution: "chokidar@npm:3.5.2"
   dependencies:
@@ -9844,7 +9844,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"file-type@npm:^16.0.0, file-type@npm:^16.5.3":
+"file-type@npm:^16.5.3":
   version: 16.5.3
   resolution: "file-type@npm:16.5.3"
   dependencies:
@@ -10976,29 +10976,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-source-filesystem@npm:^3.13.0":
-  version: 3.13.0
-  resolution: "gatsby-source-filesystem@npm:3.13.0"
-  dependencies:
-    "@babel/runtime": ^7.14.8
-    better-queue: ^3.8.10
-    chokidar: ^3.4.3
-    file-type: ^16.0.0
-    fs-extra: ^8.1.0
-    gatsby-core-utils: ^2.13.0
-    got: ^9.6.0
-    md5-file: ^5.0.0
-    mime: ^2.5.2
-    pretty-bytes: ^5.4.1
-    progress: ^2.0.3
-    valid-url: ^1.0.9
-    xstate: ^4.14.0
-  peerDependencies:
-    gatsby: ^3.0.0-next.0
-  checksum: 1e5d92b017b99433931eb91c5e053c2f3d62a236c0d4d56b264dd9df11653216435f27b525f2cd12288bf545da69a51b11cb36fa2f8c239a1e6481bcf4610d30
-  languageName: node
-  linkType: hard
-
 "gatsby-source-filesystem@npm:^3.14.0":
   version: 3.14.0
   resolution: "gatsby-source-filesystem@npm:3.14.0"
@@ -11026,15 +11003,15 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "gatsby-source-packagist@workspace:packages/gatsby-source-packagist"
   dependencies:
-    "@babel/cli": ^7.15.4
+    "@babel/cli": ^7.15.7
     "@babel/core": ^7.15.5
     "@octokit/rest": ^17.11.2
-    babel-preset-gatsby-package: ^1.13.0
+    babel-preset-gatsby-package: ^1.14.0
     cross-env: ^7.0.3
-    gatsby-source-filesystem: ^3.13.0
+    gatsby-source-filesystem: ^3.14.0
     mime-types: ^2.1.32
     packagist-api-client: ^2.0.0
-    prettier: ^2.4.0
+    prettier: ^2.4.1
   peerDependencies:
     gatsby: ^2.4.0 || ^3.0.0
     gatsby-source-filesystem: ^2.2.4
@@ -17878,6 +17855,15 @@ __metadata:
   bin:
     prettier: bin-prettier.js
   checksum: ac1bf07566dad5f58469e6d8a954bd5c0f833935597deb00330e9f673e14e4cf81e07dee7eff5776c0edebe11358d199f332d9940be40c8b455516034e553ce0
+  languageName: node
+  linkType: hard
+
+"prettier@npm:^2.4.1":
+  version: 2.4.1
+  resolution: "prettier@npm:2.4.1"
+  bin:
+    prettier: bin-prettier.js
+  checksum: cc6830588b401b0d742862fe9c46bc9118204fb307c3abe0e49e95b35ed23629573807ffdf9cdd65289c252a0bb51fc0171437f6626ee36378dea80f0ee80b91
   languageName: node
   linkType: hard
 
